@@ -1,0 +1,24 @@
+college_id,college_name,city,state,nirf_rank_2024
+1,IIT Madras,Chennai,Tamil Nadu,1
+2,IIT Delhi,New Delhi,Delhi,2
+3,IIT Bombay,Mumbai,Maharashtra,3
+4,IIT Kanpur,Kanpur,Uttar Pradesh,4
+5,IIT Kharagpur,Kharagpur,West Bengal,5
+6,IIT Roorkee,Roorkee,Uttarakhand,6
+7,IIT Guwahati,Guwahati,Assam,7
+8,IIT Hyderabad,Hyderabad,Telangana,8
+9,IIT Varanasi (BHU),Varanasi,Uttar Pradesh,9
+10,IIT Dhanbad (ISM),Dhanbad,Jharkhand,10
+11,IIT Indore,Indore,Madhya Pradesh,14
+12,IIT Ropar,Rupnagar,Punjab,22
+13,IIT Bhubaneswar,Bhubaneswar,Odisha,28
+14,IIT Gandhinagar,Gandhinagar,Gujarat,23
+15,IIT Mandi,Mandi,Himachal Pradesh,33
+16,IIT Jodhpur,Jodhpur,Rajasthan,30
+17,IIT Patna,Patna,Bihar,41
+18,IIT Tirupati,Tirupati,Andhra Pradesh,46
+19,IIT Bhilai,Bhilai,Chhattisgarh,43
+20,IIT Goa,Goa,Goa,47
+21,IIT Jammu,Jammu,Jammu and Kashmir,67
+22,IIT Palakkad,Palakkad,Kerala,69
+23,IIT Dharwad,Dharwad,Karnataka,72
