@@ -1,0 +1,173 @@
+Cutoff_id,College_id,College_name,Branch_id,Branch_name,OR,CR,OR(OBC),CR(OBC),OR(SC),CR(SC)
+C101,1,IIT Madras,101,Aerospace Engineering,1469,2801,1131,1615,281,1309
+C102,1,IIT Madras,109,Chemical Engineering,2024,3885,902,1943,997,1346
+C103,1,IIT Madras,110,Civil Engineering,3305,5516,1486,2587,332,1491
+C104,1,IIT Madras,111,Computer Science and Engineering,76,159,38,101,16,54
+C105,1,IIT Madras,112,Electrical Engineering,299,835,165,492,20,316
+C106,1,IIT Madras,120,Mechanical Engineering,458,2302,444,1251,306,976
+C107,1,IIT Madras,121,Metallurgical and Materials Engineering,3770,4658,1994,2652,1052,1728
+C108,1,IIT Madras,124,Naval Architecture and Ocean Engineering,4274,7187,1777,3240,1337,2370
+C109,3,IIT Bombay,101,Aerospace Engineering,585,2388,531,1588,59,952
+C110,3,IIT Bombay,109,Chemical Engineering,631,1191,542,1449,154,936
+C111,3,IIT Bombay,110,Civil Engineering,5268,6969,1078,2034,550,1115
+C112,3,IIT Bombay,111,Computer Science and Engineering,1,68,10,58,2,27
+C113,3,IIT Bombay,112,Electrical Engineering,15,464,83,388,101,195
+C114,3,IIT Bombay,118,Materials Science and Engineering,2690,4175,1175,2461,837,1414
+C115,3,IIT Bombay,120,Mechanical Engineering,666,1685,304,972,221,496
+C116,3,IIT Bombay,121,Metallurgical and Materials Engineering,2690,4175,1175,2461,837,1414
+C117,3,IIT Bombay,124,Ocean Engineering,1580,2557,1395,1827,492,1229
+C118,3,IIT Bombay,133,BS Physics,585,2388,1069,1779,245,570
+C119,3,IIT Bombay,134,BS Chemistry,650,2507,2722,4004,1610,2321
+C120,3,IIT Bombay,135,BS Mathematics,585,2388,1069,1779,245,570
+C122,17,IIT Jodhpur,109,Chemical Engineering,4067,6145,2301,2962,701,1089
+C123,17,IIT Jodhpur,110,Civil Engineering,8468,13287,2966,5020,805,1280
+C124,17,IIT Jodhpur,111,Computer Science and Engineering,1023,1581,501,875,157,335
+C125,17,IIT Jodhpur,112,Electrical Engineering,3000,5400,1850,2400,670,1050
+C126,2,IIT Delhi,120,Mechanical Engineering,414,1520,600,1240,50,375
+C127,2,IIT Delhi,101,Aerospace Engineering,1030,2760,810,1330,400,700
+C128,2,IIT Delhi,109,Chemical Engineering,1950,3400,1600,2100,560,910
+C129,2,IIT Delhi,110,Civil Engineering,4100,6200,2600,3450,700,1400
+C130,2,IIT Delhi,111,Computer Science and Engineering,4,60,20,50,10,30
+C131,2,IIT Delhi,112,Electrical Engineering,350,870,400,700,120,410
+C132,2,IIT Delhi,120,Mechanical Engineering,414,1520,600,1240,50,375
+C133,2,IIT Delhi,121,Metallurgical and Materials Engineering,5900,9200,3400,4900,900,1600
+C134,2,IIT Delhi,130,Textile Engineering,12000,16000,8500,10000,2300,3900
+C135,2,IIT Delhi,133,BS Physics,2700,4500,1500,2100,650,1100
+C136,2,IIT Delhi,134,BS Chemistry,10500,14500,9000,12000,2000,3400
+C137,2,IIT Delhi,135,BS Mathematics,2700,4500,1500,2100,650,1100
+C138,31,Malaviya National Institute of Technology Jaipur,109,Chemical Engineering,7400,13000,4900,7300,1300,2300
+C139,31,Malaviya National Institute of Technology Jaipur,110,Civil Engineering,13000,22000,8500,14000,2600,3900
+C140,31,Malaviya National Institute of Technology Jaipur,111,Computer Science and Engineering,1900,3900,1100,1900,400,1100
+C141,31,Malaviya National Institute of Technology Jaipur,112,Electrical Engineering,4500,9000,3400,6000,900,1900
+C142,31,Malaviya National Institute of Technology Jaipur,113,Electronics and Communication Engineering,5200,9000,4000,6500,1000,2100
+C143,31,Malaviya National Institute of Technology Jaipur,114,Environmental Engineering,13000,22000,8500,14000,2600,3900
+C144,31,Malaviya National Institute of Technology Jaipur,120,Mechanical Engineering,8200,14000,5900,9000,1500,2600
+C145,31,Malaviya National Institute of Technology Jaipur,121,Metallurgical and Materials Engineering,12000,19000,8400,13000,2000,3400
+C146,34,"Dr. B R Ambedkar National Institute of Technology, Jalandhar",110,Civil Engineering,15000,25000,10000,16000,2500,3800
+C147,34,"Dr. B R Ambedkar National Institute of Technology, Jalandhar",111,Computer Science and Engineering,3800,7300,2300,4000,500,1300
+C148,34,"Dr. B R Ambedkar National Institute of Technology, Jalandhar",112,Electrical Engineering,7600,15000,5300,9000,1200,2700
+C149,34,"Dr. B R Ambedkar National Institute of Technology, Jalandhar",113,Electronics and Communication Engineering,8200,14000,6000,8500,1300,2800
+C150,34,"Dr. B R Ambedkar National Institute of Technology, Jalandhar",114,Environmental Engineering,16000,27000,11000,18000,2500,4000
+C151,34,"Dr. B R Ambedkar National Institute of Technology, Jalandhar",118,Materials Science and Engineering,18000,28000,14000,20000,2700,4500
+C152,34,"Dr. B R Ambedkar National Institute of Technology, Jalandhar",120,Mechanical Engineering,13000,22000,9000,13000,2100,3600
+C153,34,"Dr. B R Ambedkar National Institute of Technology, Jalandhar",130,Textile Engineering,22000,32000,16000,25000,3500,5200
+C154,18,IIT Bhilai,111,Computer Science and Engineering,1589,2300,2752,2752,4486,4486
+C155,18,IIT Bhilai,112,Electrical Engineering,2416,3244,3460,3460,5317,5317
+C156,18,IIT Bhilai,120,Mechanical Engineering,2347,3149,3640,3640,5752,5752
+C157,18,IIT Bhilai,110,Civil Engineering,2471,3399,3748,3748,5724,5724
+C158,18,IIT Bhilai,109,Chemical Engineering,1152,1716,1942,1942,4331,4331
+C159,21,IIT Jammu,111,Computer Science and Engineering,2855,3585,4081,4081,5772,5772
+C160,21,IIT Jammu,112,Electrical Engineering,491,1469,1838,1838,3946,3946
+C161,21,IIT Jammu,120,Mechanical Engineering,906,1076,1496,1496,3252,3252
+C162,21,IIT Jammu,110,Civil Engineering,1359,1781,2142,2142,4732,4732
+C163,21,IIT Jammu,109,Chemical Engineering,963,1686,1797,1797,4268,4268
+C164,4,IIT Kanpur,111,Computer Science and Engineering,764,1310,1476,1476,3531,3531
+C165,4,IIT Kanpur,112,Electrical Engineering,1009,1475,1959,1959,3991,3991
+C166,4,IIT Kanpur,120,Mechanical Engineering,2467,2984,3193,3193,5686,5686
+C167,4,IIT Kanpur,110,Civil Engineering,2566,3461,3905,3905,6389,6389
+C168,4,IIT Kanpur,109,Chemical Engineering,438,1141,1388,1388,3210,3210
+C169,5,IIT Kharagpur,111,Computer Science and Engineering,997,1385,1717,1717,3736,3736
+C170,5,IIT Kharagpur,112,Electrical Engineering,1231,1560,1868,1868,4445,4445
+C171,5,IIT Kharagpur,120,Mechanical Engineering,1749,2351,2699,2699,4490,4490
+C172,5,IIT Kharagpur,110,Civil Engineering,343,870,1335,1335,3436,3436
+C173,5,IIT Kharagpur,109,Chemical Engineering,243,389,754,754,2852,2852
+C174,35,"National Institute of Technology, Hamirpur",111,Computer Science and Engineering,7844,10724,1631,1809,1709,2327
+C175,35,"National Institute of Technology, Hamirpur",109,Chemical Engineering,25381,35037,4495,4845,4538,5598
+C176,35,"National Institute of Technology, Hamirpur",110,Civil Engineering,35369,40730,5644,5799,4698,5698
+C177,35,"National Institute of Technology, Hamirpur",112,Electrical Engineering,17376,22845,2199,2392,3371,4870
+C178,36,"Visvesvaraya National Institute of Technology, Nagpur",111,Computer Science and Engineering,4201,6753,1153,1520,225,319
+C179,36,"Visvesvaraya National Institute of Technology, Nagpur",109,Chemical Engineering,24181,28353,4495,4845,4538,5598
+C180,36,"Visvesvaraya National Institute of Technology, Nagpur",110,Civil Engineering,25857,34495,5644,5799,4698,5698
+C181,36,"Visvesvaraya National Institute of Technology, Nagpur",112,Electrical Engineering,10226,14151,2199,2392,3371,4870
+C182,37,"National Institute of Technology, Raipur",111,Computer Science and Engineering,9000,12000,1800,2000,2500,3000
+C183,37,"National Institute of Technology, Raipur",109,Chemical Engineering,25000,30000,5000,5500,6000,7000
+C184,37,"National Institute of Technology, Raipur",110,Civil Engineering,27000,32000,5500,6000,6500,7500
+C185,37,"National Institute of Technology, Raipur",112,Electrical Engineering,15000,20000,3000,3500,4000,5000
+C186,38,"National Institute of Technology, Jamshedpur",111,Computer Science and Engineering,8500,11500,1700,1900,2400,2900
+C187,38,"National Institute of Technology, Jamshedpur",109,Chemical Engineering,24000,29000,4800,5300,5800,6800
+C188,38,"National Institute of Technology, Jamshedpur",110,Civil Engineering,26000,31000,5300,5800,6300,7300
+C189,38,"National Institute of Technology, Jamshedpur",112,Electrical Engineering,14000,19000,2800,3300,3800,4800
+C190,39,"National Institute of Technology, Patna",111,Computer Science and Engineering,8700,11700,1750,1950,2450,2950
+C191,39,"National Institute of Technology, Patna",109,Chemical Engineering,24500,29500,4900,5400,5900,6900
+C192,39,"National Institute of Technology, Patna",110,Civil Engineering,26500,31500,5400,5900,6400,7400
+C193,39,"National Institute of Technology, Patna",112,Electrical Engineering,14500,19500,2900,3400,3900,4900
+C194,40,"National Institute of Technology, Srinagar",111,Computer Science and Engineering,9500,12500,1900,2100,2600,3100
+C195,40,"National Institute of Technology, Srinagar",109,Chemical Engineering,25500,30500,5100,5600,6100,7100
+C196,40,"National Institute of Technology, Srinagar",110,Civil Engineering,27500,32500,5600,6100,6600,7600
+C197,40,"National Institute of Technology, Srinagar",112,Electrical Engineering,15500,20500,3100,3600,4100,5100
+C198,41,"National Institute of Technology, Agartala",111,Computer Science and Engineering,10000,13000,2000,2200,2700,3200
+C199,41,"National Institute of Technology, Agartala",109,Chemical Engineering,26000,31000,5200,5700,6200,7200
+C200,41,"National Institute of Technology, Agartala",110,Civil Engineering,28000,33000,5700,6200,6700,7700
+C201,41,"National Institute of Technology, Agartala",112,Electrical Engineering,16000,21000,3200,3700,4200,5200
+C202,42,"National Institute of Technology, Meghalaya",111,Computer Science and Engineering,10500,13500,2100,2300,2800,3300
+C203,42,"National Institute of Technology, Meghalaya",109,Chemical Engineering,26500,31500,5300,5800,6300,7300
+C204,42,"National Institute of Technology, Meghalaya",110,Civil Engineering,28500,33500,5800,6300,6800,7800
+C205,42,"National Institute of Technology, Meghalaya",112,Electrical Engineering,16500,21500,3300,3800,4300,5300
+C206,43,"National Institute of Technology, Manipur",111,Computer Science and Engineering,11000,14000,2200,2400,2900,3400
+C207,43,"National Institute of Technology, Manipur",109,Chemical Engineering,27000,32000,5400,5900,6400,7400
+C208,43,"National Institute of Technology, Manipur",110,Civil Engineering,29000,34000,5900,6400,6900,7900
+C209,43,"National Institute of Technology, Manipur",112,Electrical Engineering,17000,22000,3400,3900,4400,5400
+C210,44,"National Institute of Technology, Mizoram",111,Computer Science and Engineering,11500,14500,2300,2500,3000,3500
+C211,44,"National Institute of Technology, Mizoram",109,Chemical Engineering,27500,32500,5500,6000,6500,7500
+C212,44,"National Institute of Technology, Mizoram",110,Civil Engineering,29500,34500,6000,6500,7000,8000
+C213,44,"National Institute of Technology, Mizoram",112,Electrical Engineering,17500,22500,3500,4000,4500,5500
+C214,45,"National Institute of Technology, Nagaland",111,Computer Science and Engineering,12000,15000,2400,2600,3100,3600
+C215,45,"National Institute of Technology, Nagaland",109,Chemical Engineering,28000,33000,5600,6100,6600,7600
+C216,45,"National Institute of Technology, Nagaland",110,Civil Engineering,30000,35000,6100,6600,7100,8100
+C217,45,"National Institute of Technology, Nagaland",112,Electrical Engineering,18000,23000,3600,4100,4600,5600
+C218,46,"National Institute of Technology, Arunachal Pradesh",111,Computer Science and Engineering,12500,15500,2500,2700,3200,3700
+C219,46,"National Institute of Technology, Arunachal Pradesh",109,Chemical Engineering,28500,33500,5700,6200,6700,7700
+C220,46,"National Institute of Technology, Arunachal Pradesh",110,Civil Engineering,30500,35500,6200,6700,7200,8200
+C221,46,"National Institute of Technology, Arunachal Pradesh",112,Electrical Engineering,18500,23500,3700,4200,4700,5700
+C222,47,"National Institute of Technology, Sikkim",111,Computer Science and Engineering,13000,16000,2600,2800,3300,3800
+C223,47,"National Institute of Technology, Sikkim",109,Chemical Engineering,29000,34000,5800,6300,6800,7800
+C224,47,"National Institute of Technology, Sikkim",110,Civil Engineering,31000,36000,6300,6800,7300,8300
+C225,47,"National Institute of Technology, Sikkim",112,Electrical Engineering,19000,24000,3800,4300,4800,5800
+C226,48,"National Institute of Technology, Uttarakhand",111,Computer Science and Engineering,13500,16500,2700,2900,3400,3900
+C227,48,"National Institute of Technology, Uttarakhand",109,Chemical Engineering,29500,34500,5900,6400,6900,7900
+C228,48,"National Institute of Technology, Uttarakhand",110,Civil Engineering,31500,36500,6400,6900,7400,8400
+C229,48,"National Institute of Technology, Uttarakhand",112,Electrical Engineering,19500,24500,3900,4400,4900,5900
+C230,49,"National Institute of Technology, Delhi",111,Computer Science and Engineering,5000,8000,1000,1200,1500,2000
+C231,49,"National Institute of Technology, Delhi",109,Chemical Engineering,20000,25000,4000,4500,5000,6000
+C232,49,"National Institute of Technology, Delhi",110,Civil Engineering,22000,27000,4500,5000,5500,6500
+C233,49,"National Institute of Technology, Delhi",112,Electrical Engineering,12000,17000,2400,2900,3400,6700
+C234,7,IIT Guwahati,111,Computer Science and Engineering,120,500,400,1500,600,2500
+C235,7,IIT Guwahati,112,Electrical Engineering,800,1800,2000,3500,3500,7000
+C236,7,IIT Guwahati,120,Mechanical Engineering,1500,3500,4000,6000,6000,11000
+C237,7,IIT Guwahati,113,Electronics and Communication Engineering,1000,2500,3000,5000,4500,9000
+C238,8,IIT Hyderabad,111,Computer Science and Engineering,90,400,300,1200,450,2000
+C239,8,IIT Hyderabad,112,Electrical Engineering,700,1700,1800,3200,3000,6000
+C240,8,IIT Hyderabad,120,Mechanical Engineering,1400,3400,3800,5700,5600,10500
+C241,8,IIT Hyderabad,140,Artificial Intelligence,130,450,350,1400,500,2200
+C242,9,IIT (BHU) Varanasi,111,Computer Science and Engineering,100,420,320,1300,480,2100
+C243,9,IIT (BHU) Varanasi,112,Electrical Engineering,750,1800,1900,3500,3200,6200
+C244,9,IIT (BHU) Varanasi,120,Mechanical Engineering,1600,3600,4200,6000,6200,11500
+C245,9,IIT (BHU) Varanasi,110,Civil Engineering,3000,7000,7000,11000,9000,15000
+C246,10,IIT (ISM) Dhanbad,111,Computer Science and Engineering,400,1300,1200,4000,1800,4500
+C247,10,IIT (ISM) Dhanbad,112,Electrical Engineering,900,2100,2300,4300,3800,8000
+C248,10,IIT (ISM) Dhanbad,120,Mechanical Engineering,1500,3900,4100,6600,6300,12000
+C249,10,IIT (ISM) Dhanbad,141,Petroleum Engineering,3500,8000,7500,11500,9500,16000
+C250,11,IIT Bhubaneswar,111,Computer Science and Engineering,350,1100,1000,3500,1600,4000
+C251,11,IIT Bhubaneswar,112,Electrical Engineering,900,2200,2100,4600,4000,8500
+C252,11,IIT Bhubaneswar,120,Mechanical Engineering,1700,3800,4200,6800,6400,11800
+C253,11,IIT Bhubaneswar,110,Civil Engineering,3200,7200,7000,11200,9000,15500
+C254,12,IIT Gandhinagar,111,Computer Science and Engineering,450,1250,1100,3600,1700,4400
+C255,12,IIT Gandhinagar,112,Electrical Engineering,1000,2300,2300,4700,4100,8600
+C256,12,IIT Gandhinagar,120,Mechanical Engineering,1600,4000,4300,6700,6500,12200
+C257,12,IIT Gandhinagar,140,Artificial Intelligence,200,550,450,1500,600,2500
+C258,13,IIT Ropar,111,Computer Science and Engineering,500,1350,1200,3700,1800,4600
+C259,13,IIT Ropar,112,Electrical Engineering,1100,2500,2400,4900,4300,8800
+C260,13,IIT Ropar,120,Mechanical Engineering,1700,4200,4400,7000,6700,12500
+C261,13,IIT Ropar,110,Civil Engineering,3500,7800,7200,11500,9300,16200
+C262,14,IIT Patna,111,Computer Science and Engineering,550,1400,1300,3800,1900,4700
+C263,14,IIT Patna,112,Electrical Engineering,1200,2600,2500,5100,4500,9000
+C264,14,IIT Patna,120,Mechanical Engineering,1800,4400,4500,7200,6800,12800
+C265,14,IIT Patna,110,Civil Engineering,3600,7900,7400,11600,9400,16300
+C266,15,IIT Indore,111,Computer Science and Engineering,480,1300,1150,3650,1750,4500
+C267,15,IIT Indore,112,Electrical Engineering,1100,2450,2300,4800,4200,8700
+C268,15,IIT Indore,120,Mechanical Engineering,1600,4050,4300,6750,6400,12100
+C269,15,IIT Indore,110,Civil Engineering,3400,7700,7100,11300,9100,16000
+C270,16,IIT Mandi,111,Computer Science and Engineering,600,1500,1350,4000,2000,5000
+C271,16,IIT Mandi,112,Electrical Engineering,1250,2700,2600,5300,4700,9200
+C272,16,IIT Mandi,120,Mechanical Engineering,1900,4600,4700,7500,7000,13000
+C273,16,IIT Mandi,110,Civil Engineering,3700,8000,7600,11800,9500,16500

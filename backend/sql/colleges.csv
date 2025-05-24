@@ -1,0 +1,90 @@
+College_id,College_name,Type,Exam_type,NIRF_ranking,City,State,Airport_Nearby,Room
+1,IIT Madras,IIT,JEE Advanced,1,Chennai,Tamil Nadu,Yes,Single
+2,IIT Delhi,IIT,JEE Advanced,2,New Delhi,Delhi,Yes,Single
+3,IIT Bombay,IIT,JEE Advanced,3,Mumbai,Maharashtra,Yes,Single
+4,IIT Kanpur,IIT,JEE Advanced,4,Kanpur,Uttar Pradesh,Yes,Double
+5,IIT Kharagpur,IIT,JEE Advanced,5,Kharagpur,West Bengal,No,Double
+6,IIT Roorkee,IIT,JEE Advanced,6,Roorkee,Uttarakhand,No,Double
+7,IIT Guwahati,IIT,JEE Advanced,7,Guwahati,Assam,Yes,Double
+8,IIT Hyderabad,IIT,JEE Advanced,8,Hyderabad,Telangana,Yes,Double
+9,IIT (BHU) Varanasi,IIT,JEE Advanced,10,Varanasi,Uttar Pradesh,Yes,Single
+10,IIT (ISM) Dhanbad,IIT,JEE Advanced,14,Dhanbad,Jharkhand,No,Double
+11,IIT Bhubaneswar,IIT,JEE Advanced,16,Bhubaneswar,Odisha,Yes,Double
+12,IIT Gandhinagar,IIT,JEE Advanced,17,Gandhinagar,Gujarat,Yes,Single
+13,IIT Ropar,IIT,JEE Advanced,18,Ropar,Punjab,No,Double
+14,IIT Patna,IIT,JEE Advanced,19,Patna,Bihar,Yes,Double
+15,IIT Indore,IIT,JEE Advanced,20,Indore,Madhya Pradesh,Yes,Double
+16,IIT Mandi,IIT,JEE Advanced,22,Mandi,Himachal Pradesh,No,Double
+17,IIT Jodhpur,IIT,JEE Advanced,23,Jodhpur,Rajasthan,Yes,Double
+18,IIT Bhilai,IIT,JEE Advanced,26,Bhilai,Chhattisgarh,No,Double
+19,IIT Palakkad,IIT,JEE Advanced,28,Palakkad,Kerala,No,Double
+20,IIT Tirupati,IIT,JEE Advanced,29,Tirupati,Andhra Pradesh,No,Double
+21,IIT Jammu,IIT,JEE Advanced,30,Jammu,Jammu & Kashmir,Yes,Double
+22,IIT Goa,IIT,JEE Advanced,31,Goa,Goa,Yes,Double
+23,IIT Dharwad,IIT,JEE Advanced,32,Dharwad,Karnataka,Yes,Double
+24,"National Institute of Technology, Tiruchirappalli",NIT,JEE Mains,11,Tiruchirappalli,Tamil Nadu,Yes,Double
+25,"National Institute of Technology, Karnataka, Surathkal",NIT,JEE Mains,15,Surathkal,Karnataka,Yes,Double
+26,"National Institute of Technology, Rourkela",NIT,JEE Mains,12,Rourkela,Odisha,No,Double
+27,"National Institute of Technology, Warangal",NIT,JEE Mains,13,Warangal,Telangana,No,Double
+28,"National Institute of Technology, Calicut",NIT,JEE Mains,21,Calicut,Kerala,Yes,Double
+29,"National Institute of Technology, Durgapur",NIT,JEE Mains,25,Durgapur,West Bengal,No,Double
+30,"National Institute of Technology, Silchar",NIT,JEE Mains,33,Silchar,Assam,No,Double
+31,"Malaviya National Institute of Technology, Jaipur",NIT,JEE Mains,24,Jaipur,Rajasthan,Yes,Double
+32,"National Institute of Technology, Kurukshetra",NIT,JEE Mains,27,Kurukshetra,Haryana,No,Double
+33,"Dr. B R Ambedkar National Institute of Technology, Jalandhar",NIT,JEE Mains,34,Jalandhar,Punjab,No,Double
+34,"Sardar Vallabhbhai National Institute of Technology, Surat",NIT,JEE Mains,35,Surat,Gujarat,Yes,Double
+35,"National Institute of Technology, Hamirpur",NIT,JEE Mains,38,Hamirpur,Himachal Pradesh,No,Double
+36,"Visvesvaraya National Institute of Technology, Nagpur",NIT,JEE Mains,40,Nagpur,Maharashtra,Yes,Double
+37,"National Institute of Technology, Raipur",NIT,JEE Mains,41,Raipur,Chhattisgarh,Yes,Double
+38,"National Institute of Technology, Jamshedpur",NIT,JEE Mains,42,Jamshedpur,Jharkhand,Yes,Double
+39,"National Institute of Technology, Patna",NIT,JEE Mains,43,Patna,Bihar,Yes,Double
+40,"National Institute of Technology, Srinagar",NIT,JEE Mains,44,Srinagar,Jammu & Kashmir,No,Double
+41,"National Institute of Technology, Agartala",NIT,JEE Mains,45,Agartala,Tripura,No,Double
+42,"National Institute of Technology, Meghalaya",NIT,JEE Mains,46,Shillong,Meghalaya,No,Double
+43,"National Institute of Technology, Manipur",NIT,JEE Mains,47,Imphal,Manipur,No,Double
+44,"National Institute of Technology, Mizoram",NIT,JEE Mains,48,Aizawl,Mizoram,No,Double
+45,"National Institute of Technology, Nagaland",NIT,JEE Mains,49,Nagaland (Dimapur),Nagaland,No,Double
+46,"National Institute of Technology, Arunachal Pradesh",NIT,JEE Mains,50,Itanagar,Arunachal Pradesh,No,Double
+47,"National Institute of Technology, Sikkim",NIT,JEE Mains,51,Gangtok,Sikkim,No,Double
+48,"National Institute of Technology, Uttarakhand",NIT,JEE Mains,52,Dehradun,Uttarakhand,Yes,Double
+49,"National Institute of Technology, Delhi",NIT,JEE Mains,53,Delhi,Delhi,Yes,Double
+50,"National Institute of Technology, Goa",NIT,JEE Mains,54,Goa,Goa,Yes,Double
+51,"National Institute of Technology, Puducherry",NIT,JEE Mains,55,Puducherry,Puducherry,Yes,Double
+52,"National Institute of Technology, Andhra Pradesh",NIT,JEE Mains,56,Vijayawada,Andhra Pradesh,No,Double
+53,"Motilal Nehru National Institute of Technology, Allahabad",NIT,JEE Mains,57,Prayagraj,Uttar Pradesh,Yes,Single
+54,"Maulana Azad National Institute of Technology, Bhopal",NIT,JEE Mains,58,Bhopal,Madhya Pradesh,Yes,Single
+55,"Indian Institute of Engineering Science and Technology, Shibpur",NIT,JEE Mains,59,Howrah,West Bengal,Yes,Double
+56,"Indian Institute of Information Technology, Hyderabad",IIIT,JEE Mains,62,Hyderabad,Telangana,Yes,Single
+57,"Indian Institute of Information Technology, Allahabad",IIIT,JEE Mains,78,Prayagraj,Uttar Pradesh,Yes,Single
+58,"Indian Institute of Information Technology, Guwahati",IIIT,JEE Mains,81,Guwahati,Assam,Yes,Double
+59,"Indian Institute of Information Technology, Jabalpur",IIIT,JEE Mains,,Jabalpur,Madhya Pradesh,Yes,Double
+60,"Indian Institute of Information Technology, Kancheepuram",IIIT,JEE Mains,,Kancheepuram,Tamil Nadu,Yes,Double
+61,"Indian Institute of Information Technology, Kota",IIIT,JEE Mains,,Kota,Rajasthan,Yes,Double
+62,"Indian Institute of Information Technology, Nagpur",IIIT,JEE Mains,,Nagpur,Maharashtra,Yes,Single
+63,"Indian Institute of Information Technology, Sri City",IIIT,JEE Mains,,Sri City,Andhra Pradesh,No,Double
+64,"Indian Institute of Information Technology, Vadodara",IIIT,JEE Mains,,Vadodara,Gujarat,Yes,Double
+65,"Indian Institute of Information Technology, Bhubaneswar",IIIT,JEE Mains,,Bhubaneswar,Odisha,Yes,Double
+66,"Indian Institute of Information Technology, Una",IIIT,JEE Mains,,Una,Himachal Pradesh,No,Double
+67,"Indian Institute of Information Technology, Sonepat",IIIT,JEE Mains,,Sonepat,Haryana,No,Double
+68,"Indian Institute of Information Technology, Surat",IIIT,JEE Mains,,Surat,Gujarat,Yes,Double
+69,"Indian Institute of Information Technology, Lucknow",IIIT,JEE Mains,,Lucknow,Uttar Pradesh,Yes,Single
+70,"Indian Institute of Information Technology, Dharwad",IIIT,JEE Mains,,Dharwad,Karnataka,Yes,Double
+71,"Indian Institute of Information Technology, Tiruchirappalli",IIIT,JEE Mains,,Tiruchirappalli,Tamil Nadu,Yes,Double
+72,"Indian Institute of Information Technology, Agartala",IIIT,JEE Mains,,Agartala,Tripura,No,Double
+73,"Indian Institute of Information Technology, Guwahati (IIITG - PPP)",IIIT,JEE Mains,,Guwahati,Assam,Yes,Double
+74,"Indian Institute of Information Technology, Ranchi",IIIT,JEE Mains,,Ranchi,Jharkhand,Yes,Double
+75,"Indian Institute of Information Technology, Raichur",IIIT,JEE Mains,,Raichur,Karnataka,No,Double
+76,"Indian Institute of Information Technology, Amritsar",IIIT,JEE Mains,,Amritsar,Punjab,Yes,Double
+77,"Indian Institute of Information Technology, Kalyani",IIIT,JEE Mains,,Kalyani,West Bengal,No,Double
+78,"Indian Institute of Information Technology, Una (Himachal Pradesh)",IIIT,JEE Mains,,Una,Himachal Pradesh,No,Double
+79,"Indian Institute of Information Technology, Manipur",IIIT,JEE Mains,,Imphal,Manipur,No,Double
+80,"Indian Institute of Information Technology, Bhopal",IIIT,JEE Mains,,Bhopal,Madhya Pradesh,Yes,Double
+81,"Indian Institute of Information Technology, Bhagalpur",IIIT,JEE Mains,,Bhagalpur,Bihar,No,Double
+82,"Indian Institute of Information Technology, Nagaland",IIIT,JEE Mains,,Dimapur,Nagaland,No,Double
+83,"Indian Institute of Information Technology, Sri City (Andhra Pradesh)",IIIT,JEE Mains,,Sri City,Andhra Pradesh,No,Double
+84,"Indian Institute of Information Technology, Kottayam",IIIT,JEE Mains,,Kottayam,Kerala,Yes,Double
+85,"Indian Institute of Information Technology, Shimla",IIIT,JEE Mains,,Shimla,Himachal Pradesh,No,Double
+86,"Indian Institute of Information Technology, Bodh Gaya",IIIT,JEE Mains,,Bodh Gaya,Bihar,No,Double
+87,"Indian Institute of Information Technology, Jammu",IIIT,JEE Mains,,Jammu,Jammu & Kashmir,Yes,Double
+88,"Indian Institute of Information Technology, Lucknow (UP)",IIIT,JEE Mains,,Lucknow,Uttar Pradesh,Yes,Single
+89,"Indian Institute of Information Technology, Sonepat (Haryana)",IIIT,JEE Mains,,Sonepat,Haryana,No,Double
