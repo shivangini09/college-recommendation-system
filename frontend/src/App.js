@@ -1,17 +1,17 @@
 // src/App.js
-import React, { useState } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SearchForm from './components/SearchForm';
-import CollegeList from './components/CollegeList';
+import CollegeResults from './components/CollegeResults';
 
 function App() {
-  const [results, setResults] = useState([]);
-
   return (
-    <div>
-      <h1>College Recommendation System</h1>
-      <SearchForm onSearch={setResults} />
-      <CollegeList colleges={results} />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<SearchForm />} />
+        <Route path="/results" element={<CollegeResults />} />
+      </Routes>
+    </Router>
   );
 }
 
