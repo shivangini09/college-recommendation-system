@@ -11,26 +11,52 @@ function SearchForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    // Ensure rank is a positive number
+    const parsedRank = parseInt(rank);
+    if (isNaN(parsedRank) || parsedRank <= 0) {
+      alert('Please enter a valid positive rank.');
+      return;
+    }
+
     const response = await fetch('http://localhost:3000/api/colleges/recommend', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ rank, category, exam_type: examType }),
+      body: JSON.stringify({ rank: parsedRank, category, exam_type: examType }),
     });
 
     const data = await response.json();
-
-    // Redirect to results page with data
     navigate('/results', { state: { colleges: data } });
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input placeholder="Rank" value={rank} onChange={(e) => setRank(e.target.value)} />
-      <input placeholder="Category" value={category} onChange={(e) => setCategory(e.target.value)} />
-      <input placeholder="Exam Type" value={examType} onChange={(e) => setExamType(e.target.value)} />
-      <button type="submit">Search</button>
-    </form>
+    <form className="search-form" onSubmit={handleSubmit}>
+  <input
+    type="number"
+    min="1"
+    placeholder="Rank"
+    value={rank}
+    onChange={(e) => setRank(e.target.value)}
+    required
+  />
+
+  <select value={category} onChange={(e) => setCategory(e.target.value)} required>
+    <option value="">Select Category</option>
+    <option value="General">General</option>
+    <option value="OBC">OBC</option>
+    <option value="SC">SC</option>
+  </select>
+
+  <select value={examType} onChange={(e) => setExamType(e.target.value)} required>
+    <option value="">Select Exam Type</option>
+    <option value="JEE Mains">JEE Mains</option>
+    <option value="JEE Advanced">JEE Advanced</option>
+  </select>
+
+  <button type="submit">Search</button>
+</form>
+
   );
 }
 
 export default SearchForm;
+
