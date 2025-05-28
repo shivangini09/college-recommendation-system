@@ -161,3 +161,67 @@
   pointer-events: none;
   transition: opacity 0.5s ease-in-out;
 }
+
+
+
+
+.results-container {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.results-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #003366;
+}
+
+.results-content {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Left Filters Panel */
+.filters-panel {
+  width: 250px;
+  padding: 1rem;
+  background-color: #f0f8ff;
+  border: 1px solid #cce5ff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 128, 0.1);
+}
+
+.filters-panel input,
+.filters-panel select {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #b0c4de;
+}
+
+/* Right College List */
+.college-list {
+  flex: 1;
+  min-width: 300px;
+  max-width: 900px;
+}
+
+.college-item {
+  background-color: #ffffff;
+  border: 1px solid #cce5ff;
+  border-left: 5px solid #007BFF;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 128, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.college-item:hover {
+  transform: scale(1.02);
+  background-color: #e6f2ff;
+}

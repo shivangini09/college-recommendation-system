@@ -19,35 +19,45 @@ const CollegeResults = () => {
   });
 
   return (
-    <div>
+    <div className="results-container">
       <h2>Recommended Colleges</h2>
-
-      <div style={{ marginBottom: '1rem' }}>
-        <input
-          placeholder="Filter by branch"
-          value={branchFilter}
-          onChange={(e) => setBranchFilter(e.target.value)}
-        />
-        <select onChange={(e) => setNirfRange(e.target.value)} value={nirfRange}>
-          <option value="">All NIRF Ranks</option>
-          <option value="under10">Under 10</option>
-          <option value="10to50">10 to 50</option>
-        </select>
+  
+      <div className="results-content">
+        {/* Left Filters Panel */}
+        <div className="filters-panel">
+          <input
+            placeholder="Filter by branch"
+            value={branchFilter}
+            onChange={(e) => setBranchFilter(e.target.value)}
+          />
+          <select onChange={(e) => setNirfRange(e.target.value)} value={nirfRange}>
+            <option value="">All NIRF Ranks</option>
+            <option value="under10">Under 10</option>
+            <option value="10to50">10 to 50</option>
+          </select>
+        </div>
+  
+        {/* Right College List */}
+        <div className="college-list">
+          {filtered.length > 0 ? (
+            <ul>
+              {filtered.map((c, index) => (
+                <li key={index} className="college-item">
+                  <strong>{c.College_name}</strong><br />
+                  Branch: {c.Branch_name}<br />
+                  NIRF: {c.NIRF_ranking}<br />
+                  City: {c.City}, State: {c.State}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p>No matching colleges found.</p>
+          )}
+        </div>
       </div>
-
-      {filtered.length > 0 ? (
-        <ul>
-          {filtered.map((c, index) => (
-            <li key={index}>
-              <strong>{c.College_name}</strong> - {c.Branch_name} - NIRF: {c.NIRF_ranking}
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p>No matching colleges found.</p>
-      )}
     </div>
   );
+  
 };
 
 export default CollegeResults;
