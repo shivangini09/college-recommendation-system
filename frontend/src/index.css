@@ -7,8 +7,8 @@
 
 /* Navbar */
 .navbar {
-  background-color: #5095fd;
-  opacity: 0.8;
+  background-color: #2A52BE;
+  /* opacity: 0.9; */
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -21,7 +21,7 @@
   color: white;
   margin-left: 2rem;
   text-decoration: none;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .navbar a:hover {
@@ -130,7 +130,7 @@
 
 .feature-box:hover {
   transform: translateY(-5px);
-  background-color: #40E0D0;
+  background-color: #5B7C99;
   color: white;
 }
 
