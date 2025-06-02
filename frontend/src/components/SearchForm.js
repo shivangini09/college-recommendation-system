@@ -52,7 +52,7 @@ function SearchForm() {
     <option value="JEE Advanced">JEE Advanced</option>
   </select>
 
-  <button type="submit">Search</button>
+  <button type="submit">Get Started</button>
 </form>
 
   );

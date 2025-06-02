@@ -19,7 +19,7 @@ const CollegeResults = () => {
 
   return (
     <div className="results-container">
-      <h2>Recommended Colleges</h2>
+      <h2>Eligible Colleges</h2>
 
       <div className="results-content">
         {/* Left Filters Panel */}
