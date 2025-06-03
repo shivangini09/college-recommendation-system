@@ -137,7 +137,7 @@ function Home() {
       {/* Meet the Developer Section */}
       <div className="developer-section">
         <h2>Meet the Developer</h2>
-        <img src="/shivangini.jpg" alt="Shivangini Rathore" className="developer-image" />
+        <img src="frontend/src/images/photo_ss.jpeg" alt="Shivangini Rathore" className="developer-image" />
         <p>
           Hi, I'm Shivangini Rathore, a third-year Physics student at IIT Jodhpur with a passion for Quantum Technologies and Data Science. 
           I built this platform to help students navigate the complexity of college admissions with smart tools, real-time insights, and a clean UI. 
