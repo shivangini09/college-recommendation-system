@@ -10,7 +10,22 @@
 //   }
 
 //   const sql = `
-//     SELECT c.College_name, c.City, c.State, c.NIRF_ranking, b.Branch_name
+//     SELECT 
+//       c.College_name, 
+//       c.City, 
+//       c.State, 
+//       c.NIRF_ranking, 
+//       b.Branch_name,
+//       CASE 
+//         WHEN ? = 'General' THEN b.OR_General
+//         WHEN ? = 'OBC' THEN b.OR_OBC
+//         WHEN ? = 'SC' THEN b.OR_SC
+//       END AS Opening_Rank,
+//       CASE 
+//         WHEN ? = 'General' THEN b.CR_General
+//         WHEN ? = 'OBC' THEN b.CR_OBC
+//         WHEN ? = 'SC' THEN b.CR_SC
+//       END AS Closing_Rank
 //     FROM colleges c
 //     JOIN branches b ON c.College_id = b.College_id
 //     WHERE c.Exam_type = ?
@@ -19,10 +34,18 @@
 //         OR (b.CR_OBC >= ? AND ? = 'OBC')
 //         OR (b.CR_SC >= ? AND ? = 'SC')
 //       )
-
 //   `;
 
-//   db.query(sql, [exam_type, rank, category, rank, category, rank, category], (err, results) => {
+//   const params = [
+//     category, category, category, // for Opening Rank CASE
+//     category, category, category, // for Closing Rank CASE
+//     exam_type,                   // for exam filter
+//     rank, category,              // General
+//     rank, category,              // OBC
+//     rank, category               // SC
+//   ];
+
+//   db.query(sql, params, (err, results) => {
 //     if (err) {
 //       console.error('DB error:', err);
 //       return res.status(500).json({ error: err.message });
@@ -31,12 +54,13 @@
 //   });
 // };
 
+
 const db = require('../config/db');
 
+// Existing route for SearchForm
 exports.recommendColleges = (req, res) => {
   const { rank, category, exam_type } = req.body;
 
-  // Validate category input
   const validCategories = ['General', 'OBC', 'SC'];
   if (!validCategories.includes(category)) {
     return res.status(400).json({ error: 'Invalid category' });
@@ -70,15 +94,47 @@ exports.recommendColleges = (req, res) => {
   `;
 
   const params = [
-    category, category, category, // for Opening Rank CASE
-    category, category, category, // for Closing Rank CASE
-    exam_type,                   // for exam filter
-    rank, category,              // General
-    rank, category,              // OBC
-    rank, category               // SC
+    category, category, category,
+    category, category, category,
+    exam_type,
+    rank, category,
+    rank, category,
+    rank, category
   ];
 
   db.query(sql, params, (err, results) => {
+    if (err) {
+      console.error('DB error:', err);
+      return res.status(500).json({ error: err.message });
+    }
+    res.json(results);
+  });
+};
+
+// ✅ New route for PreferenceForm.js (basic auto-generated preference list)
+exports.generatePreferenceList = (req, res) => {
+  const { rank, category, exam_type } = req.body;
+
+  const validCategories = ['General', 'OBC', 'SC'];
+  if (!validCategories.includes(category)) {
+    return res.status(400).json({ error: 'Invalid category' });
+  }
+
+  const sql = `
+    SELECT 
+      c.College_name, 
+      c.City, 
+      c.State, 
+      c.NIRF_ranking, 
+      b.Branch_name
+    FROM colleges c
+    JOIN branches b ON c.College_id = b.College_id
+    WHERE c.Exam_type = ?
+    ORDER BY c.NIRF_ranking ASC
+    LIMIT 20
+  `;
+
+  db.query(sql, [exam_type], (err, results) => {
     if (err) {
       console.error('DB error:', err);
       return res.status(500).json({ error: err.message });

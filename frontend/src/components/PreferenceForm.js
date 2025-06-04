@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-// import './index.css';
 
 function PreferenceForm({ onClose }) {
   const [rank, setRank] = useState('');
@@ -21,24 +20,32 @@ function PreferenceForm({ onClose }) {
       return;
     }
 
-    // You may call a different API for preference list
-    const response = await fetch('http://localhost:3000/api/priority-list/generate', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        rank: parsedRank,
-        category,
-        exam_type: examType,
-        preferred_branches: preferredBranches,
-        preferred_colleges: preferredColleges,
-        home_state: stateQuota,
-      }),
-    });
+    try {
+      const response = await fetch('http://localhost:3000/api/colleges/generate-preference', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          rank: parsedRank,
+          category,
+          exam_type: examType,
+          preferred_branches: preferredBranches,
+          preferred_colleges: preferredColleges,
+          home_state: stateQuota,
+        }),
+      });
 
-    const data = await response.json();
+      if (!response.ok) {
+        const error = await response.json();
+        alert(`Error: ${error.message || 'Failed to generate list'}`);
+        return;
+      }
 
-    // Navigate to priority list result page with state
-    navigate('/priority-list', { state: { priorityList: data } });
+      const data = await response.json();
+      navigate('/priority-list', { state: { priorityList: data } });
+    } catch (err) {
+      console.error('Request failed:', err);
+      alert('Something went wrong. Please try again later.');
+    }
   };
 
   return (
@@ -59,8 +66,6 @@ function PreferenceForm({ onClose }) {
             <option value="General">General</option>
             <option value="OBC">OBC</option>
             <option value="SC">SC</option>
-            <option value="ST">ST</option>
-            <option value="EWS">EWS</option>
           </select>
 
           <select value={examType} onChange={(e) => setExamType(e.target.value)} required>
@@ -101,3 +106,4 @@ function PreferenceForm({ onClose }) {
 }
 
 export default PreferenceForm;
+
