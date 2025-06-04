@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './PreferenceForm.css';
+// import './index.css';
 
 function PreferenceForm({ onClose }) {
   const [rank, setRank] = useState('');
