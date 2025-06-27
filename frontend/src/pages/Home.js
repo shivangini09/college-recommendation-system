@@ -2,8 +2,11 @@ import React, { useState, useEffect } from 'react';
 import SearchForm from '../components/SearchForm';
 import PreferenceForm from '../components/PreferenceForm';
 import '../index.css';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
+
+  const navigate = useNavigate();
   const lines = [
     "Create Your Ideal College Priority List with Ease",
     "Real-Time News for Smarter Counselling Decisions",
@@ -59,10 +62,10 @@ function Home() {
           <h3>Preference List Generator</h3>
           <p>Auto-generate a smart preference list.</p>
         </div>
-        <div className="feature-box">
-          <h3>News</h3>
-          <p>Stay updated with admission & exam updates.</p>
-        </div>
+        <div className="feature-box" onClick={() => navigate('/news')} style={{ cursor: 'pointer' }}>
+  <h3>News</h3>
+  <p>Stay updated with admission & exam updates.</p>
+</div>
       </div>
 
       {/* Preference Form Modal */}
