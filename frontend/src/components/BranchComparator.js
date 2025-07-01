@@ -50,23 +50,23 @@ export default function BranchComparator({ onClose }) {
 
   return (
     <div className="modal">
-      <div className="modal-content">
+      <div className="modal-content cool-form">
         <span className="close-btn" onClick={onClose}>&times;</span>
-        <h2>Branch Comparator</h2>
+        <h2 style={{ marginBottom: '15px', textAlign: 'center' }}>Branch Comparator</h2>
 
-        <div className="grid-container">
+        <div className="form-grid">
           <div>
-            <label>College 1</label>
+            <label>Select College 1</label>
             <select value={college1} onChange={e => setCollege1(e.target.value)}>
-              <option value="">Select College</option>
+              <option value="">-- Select College --</option>
               {colleges.map(c => (
                 <option key={c.College_name} value={c.College_name}>{c.College_name}</option>
               ))}
             </select>
 
-            <label>Branch 1</label>
+            <label>Select Branch 1</label>
             <select value={branch1} onChange={e => setBranch1(e.target.value)} disabled={!college1}>
-              <option value="">Select Branch</option>
+              <option value="">-- Select Branch --</option>
               {branches1.map(b => (
                 <option key={b.Branch_name} value={b.Branch_name}>{b.Branch_name}</option>
               ))}
@@ -74,17 +74,17 @@ export default function BranchComparator({ onClose }) {
           </div>
 
           <div>
-            <label>College 2</label>
+            <label>Select College 2</label>
             <select value={college2} onChange={e => setCollege2(e.target.value)}>
-              <option value="">Select College</option>
+              <option value="">-- Select College --</option>
               {colleges.map(c => (
                 <option key={c.College_name} value={c.College_name}>{c.College_name}</option>
               ))}
             </select>
 
-            <label>Branch 2</label>
+            <label>Select Branch 2</label>
             <select value={branch2} onChange={e => setBranch2(e.target.value)} disabled={!college2}>
-              <option value="">Select Branch</option>
+              <option value="">-- Select Branch --</option>
               {branches2.map(b => (
                 <option key={b.Branch_name} value={b.Branch_name}>{b.Branch_name}</option>
               ))}
@@ -92,10 +92,11 @@ export default function BranchComparator({ onClose }) {
           </div>
         </div>
 
-        <button onClick={handleCompare} className="compare-btn">Compare</button>
+        <button onClick={handleCompare} className="compare-btn styled-btn">Compare</button>
 
         {result.length > 0 && (
           <div className="result-table">
+            <h3 style={{ marginTop: '20px' }}>Comparison Result</h3>
             <table>
               <thead>
                 <tr>

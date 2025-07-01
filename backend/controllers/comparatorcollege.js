@@ -1,4 +1,4 @@
-const db = require("../db"); // assuming db.js exports your SQL connection
+const db = require("../config/db"); // assuming db.js exports your SQL connection
 
 // Get unique list of colleges
 exports.getColleges = (req, res) => {
