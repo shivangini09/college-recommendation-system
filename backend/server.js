@@ -21,7 +21,9 @@ const bodyParser = require('body-parser');
 
 const db = require('./config/db');        
 const collegeRoutes = require('./routes/colleges');
-const comparatorRoutes = require('./routes/comparator');  // NEW
+const comparatorRoutes = require('./routes/comparator');
+
+
 
 const app = express();
 
