@@ -9,7 +9,10 @@ const comparatorRoutes = require('./routes/comparator');
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: 'https://college-recommendation-system-fag7.vercel.app'
+}));
+
 app.use(bodyParser.json());
 
 // Routes
