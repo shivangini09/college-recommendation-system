@@ -16,6 +16,7 @@ app.use(bodyParser.json());
 app.use('/api/colleges', collegeRoutes);
 app.use('/api/comparator', comparatorRoutes);
 
+
 // ✅ Use Railway's dynamic port
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
